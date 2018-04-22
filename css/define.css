@@ -1,0 +1,17 @@
+.container .row-fluid div img {
+	width: 200px;
+}
+.container table {
+	text-align: center;
+}
+.container table tr td,th img {
+	width: 150px;
+	height: 210px;
+}
+.container table tr td,th p {
+	color: #333333;
+}
+
+#profdesc div ul>li a {
+	color: #333333;
+}
