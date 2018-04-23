@@ -4,9 +4,9 @@
 .container table {
 	text-align: center;
 }
-.container table tr td,th img {
-	width: 150px;
-	height: 210px;
+.container table tr td,th {
+	width: 20%;
+	/*height: ;*/
 }
 .container table tr td,th p {
 	color: #333333;
@@ -14,4 +14,19 @@
 
 #profdesc div ul>li a {
 	color: #333333;
+}
+#profdesc div ul,li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container #product #page1 {
+	width: 100%;
+	height: 100%;
+}
+
+/*设置footer的字体大小*/
+footer .container p {
+	font-size: 14px;
 }
